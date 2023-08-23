@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import django from "./tech/django.png";
+import python from "./tech/python.png";
+import postgres from "./tech/postgres.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -43,6 +46,9 @@ export {
   docker,
   figma,
   git,
+  django,
+  python,
+  postgres,
   html,
   javascript,
   mongodb,
