@@ -39,9 +39,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Alejandro Bermudez",
+          to_name: "Kailash Choudhary",
           from_email: form.email,
-          to_email: "ajbermudez125@gmail.com",
+          to_email: "kailashjat604@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -125,15 +125,17 @@ const Contact = () => {
             <button
               type='button'
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary my-2'
-              onClick={() => window.open('https://github.com/b1tburn3r20', '_blank')}
+              onClick={() => window.open('https://github.com/kailashchoudhary11', '_blank')}
             >GitHub
             </button>
-            <button
+
+            <a
               type='button'
+              href=""
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary my-2'
-              onClick={() => window.location.href = 'https://docs.google.com/document/d/1jgi7lXwNT6GHW0-iiGy69HoH5GhzCp8XCLOnx6BA-Ik/export?format=pdf'}
+              onClick={() => window.open('https://drive.google.com/file/d/1CxUUQyDQdhKFh-ezdFaWLLDe4F_YxZAb/view?usp=sharing', '_blank')}
             >Résumé
-            </button>
+            </a>
           </div>
         </form>
       </motion.div>
