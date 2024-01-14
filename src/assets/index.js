@@ -32,6 +32,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./speakup.png";
 import jobit from "./wespeak.png";
 import tripguide from "./nightowl.png";
+import stegano from "./stegano.png";
+import ideator from "./ideator.png";
+import leetconnect from "./leetconnect.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  stegano,
+  ideator,
+  leetconnect,
 };

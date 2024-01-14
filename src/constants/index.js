@@ -26,6 +26,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  stegano,
+  ideator,
+  leetconnect,
 } from "../assets";
 
 export const navLinks = [
@@ -185,84 +188,84 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SpeakUp",
+    name: "SteganoHide",
     description:
-      "SpeakUp is a web application created to enhance democratic transparency and foster active citizenship. It directly addresses the challenge of understanding complex legislative language that often obscures the true impact of laws being passed.",
+      "SteganoHide is an innovative steganography website allowing users to securely embed and retrieve encrypted text within images. The platform encrypts user-provided text with a password, concealing it within the image. Offering multiple encryption algorithms, tampering detection, and privacy measures. It serves as a user-friendly and versatile tool for secure communication and data storage.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "PostgreSQL",
         color: "blue-text-gradient",
       },
       {
-        name: "node",
+        name: "Steganography",
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/b1tburn3r20/SpeakUpWeb",
+    image: stegano,
+    source_code_link: "https://github.com/kailashchoudhary11/SteganoHide",
   },
   {
-    name: "WeSpeak",
+    name: "Ideator",
     description:
-      "WeSpeak revolutionizes Spanish language learning by offering personalized conversations with an AI-powered virtual teacher. Through personalized topics and dynamic interactions, users can enjoy a more engaging and effective approach compared to conventional methods.",
+      "Ideator is a web-based platform designed to enhance your ideas by providing personalized project suggestions aligned with your skills and interests: offering an idea generation process, and delivering tailored and innovative concepts. The platform emphasizes data security with strong authentication features and boasts a visually appealing and user-friendly interface.",
     tags: [
       {
-        name: "react",
+        name: "OpenAI API",
         color: "blue-text-gradient",
       },
       {
-        name: "openai api",
+        name: "React.js",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "Django",
         color: "blue-text-gradient",
       },
 
     ],
-    image: jobit,
-    source_code_link: "https://github.com/b1tburn3r20/Spanish-Chatbot",
+    image: ideator,
+    source_code_link: "https://github.com/kailashchoudhary11/Ideator",
   },
   {
-    name: "Night Owl",
+    name: "LeetConnect",
     description:
-      "A website that was a group project for allowing users to CRUD forms for details on parties to bring about community and niche communities.",
+      "LeetConnect is a browser extension that enhances the LeetCode platform by allowing users to follow others, access solutions, and seamlessly integrate a search box. The implementation involves React components for user interactions, while DRF ensures a robust backend for user management and data retrieval.",
     tags: [
       {
-        name: "python",
+        name: "Docker",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Google Chrome API",
         color: "green-text-gradient",
       },
       {
-        name: "django framework",
+        name: "DjangoRestFramework",
         color: "pink-text-gradient",
       },
       {
-        name: "team project",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "lead developer",
+        name: "Browser Extension",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/johntrinhvu/NightOwl",
+    image: leetconnect,
+    source_code_link: "https://github.com/kailashchoudhary11/leetconnect",
   },
 ];
 
