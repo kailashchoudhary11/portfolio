@@ -37,8 +37,12 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "my-work",
+    title: "Experience",
+  },
+  {
     id: "my-projects",
-    title: "Work",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -102,77 +106,35 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "SpeakUp",
+    title: "Community Expert and Contributor",
+    company_name: "GirlScript Summer of Code",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Secured Rank 42 out of more than 10,000 contributors all over the world by actively contributing to various open-source projects related to React, HTML/CSS, and JavaScript.",
+      "Collaborated with diverse teams to develop features, write code, and resolve issues.",
+      "Recognized as a GSSoC Community Expert, providing guidance and support to fellow participants."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Developer Intern",
+    company_name: "kwiqreply",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed user management and access control feature allowing organizations to invite, add and remove users.",
+      "Implemented Celery for batch and parallel processing, resulting in a remarkable 99.5% reduction in data upload time, significantly enhancing database efficiency and user satisfaction.",
+      "Enabled clients to independently obtain WhatsApp template approvals, eliminating the need for manual intervention by the developer team.",
+      " Utilized Django, Ajax, JavaScript, AWS, MySQL and the ChatGPT API to implement and enhance features.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
