@@ -36,6 +36,9 @@ import stegano from "./stegano.png";
 import ideator from "./ideator.png";
 import leetconnect from "./leetconnect.png";
 
+import gssoc from "./gssoc.png";
+import kwiqreply from "./kwiqreply.png";
+
 export {
   logo,
   backend,
@@ -71,4 +74,6 @@ export {
   stegano,
   ideator,
   leetconnect,
+  gssoc,
+  kwiqreply,
 };

@@ -29,6 +29,8 @@ import {
   stegano,
   ideator,
   leetconnect,
+  gssoc,
+  kwiqreply
 } from "../assets";
 
 export const navLinks = [
@@ -112,7 +114,7 @@ const experiences = [
   {
     title: "Community Expert and Contributor",
     company_name: "GirlScript Summer of Code",
-    icon: starbucks,
+    icon: gssoc,
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
@@ -124,7 +126,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "kwiqreply",
-    icon: tesla,
+    icon: kwiqreply,
     iconBg: "#E6DEDD",
     date: "June 2023 - Current",
     points: [
