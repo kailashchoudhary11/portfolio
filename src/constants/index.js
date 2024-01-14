@@ -127,7 +127,7 @@ const experiences = [
     title: "Software Developer Intern",
     company_name: "kwiqreply",
     icon: kwiqreply,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "June 2023 - Current",
     points: [
       "Developed user management and access control feature allowing organizations to invite, add and remove users.",
